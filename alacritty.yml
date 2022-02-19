@@ -748,7 +748,7 @@ shell:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-key_bindings:
+#key_bindings:
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
@@ -809,7 +809,7 @@ key_bindings:
 
   # Search Mode
   #- { key: Return,                mode: Search|Vi,  action: SearchConfirm         }
-  - { key: Escape,       mode: ~Vi,         action: ToggleViMode          }
+  #- { key: Escape,       mode: ~Vi,         action: ToggleViMode          }
   #- { key: C,      mods: Control, mode: Search,     action: SearchCancel          }
   #- { key: U,      mods: Control, mode: Search,     action: SearchClear           }
   #- { key: W,      mods: Control, mode: Search,     action: SearchDeleteWord      }
